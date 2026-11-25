@@ -3,4 +3,21 @@ h1, h2{
     text-decoration: underline;
     background-color: #ffffff;
     text-align: center;
+}*{ 
+    box-sizing: border-box;
+}body
+{
+      font-family: Arial, sans-serif;
+      font-size: 1rem;
+        color: #202020;
+          background-color: #FFFFFF;
+          margin: 0;
 }
+main{
+   max-width: 50rem; 
+   padding: 1rem;
+   }
+   :focus-visible{
+    outline: 3px solid #0047AB;
+    outline-offset: 2px;
+            }
